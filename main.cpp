@@ -28,7 +28,11 @@ int main()
 		break;
 
 	case '/':
-		cout « " / in progress";
+		if (b == 0) {
+			cout << "You cannot division on 0" << endl;
+		}
+		else 
+			cout << MyDiv(a, b) << endl;
 		break;
 
 
