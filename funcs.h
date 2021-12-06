@@ -2,6 +2,8 @@
 #ifndef __FUNCS_H__
 #define __FUNCS_H__
 
-// functions will be here
+double MySub(double, double);
+double MySum(double, double);
+#endif // __FUNCS_H__#include "funcs.h"
 
-#endif // __FUNCS_H__
+

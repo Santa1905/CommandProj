@@ -16,11 +16,11 @@ int main()
 	switch (z)
 	{
 	case '+':
-		cout « " + in progress";
+		cout << MySum(a,b) <<endl;
 		break;
 
 	case '-':
-		cout « " - in progress";
+		cout << MySub(a, b) << endl;
 		break;
 
 	case "*":

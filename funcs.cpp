@@ -1,3 +1,12 @@
-#include "funcs.h"
 
-// functions'll be here
+#icnlude "funcs.h"
+
+double MySub(double a, double b)
+{
+	return a - b;
+}
+
+double MySum(double a, double b)
+{
+	return a + b;
+}
