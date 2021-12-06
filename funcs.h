@@ -1,9 +1,11 @@
-
 #ifndef __FUNCS_H__
 #define __FUNCS_H__
 
-double MySub(double, double);
 double MySum(double, double);
-#endif // __FUNCS_H__#include "funcs.h"
+double MySub(double, double);
+double MyMul(double, double);
+double MyDiv(double, double);
+
+#endif // __FUNCS_H__#pragma once
 
 
