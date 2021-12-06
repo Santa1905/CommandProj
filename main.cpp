@@ -20,7 +20,7 @@ int main()
 		break;
 
 	case '-':
-		cout « " - in progress";
+		cout << MySub(a, b) << endl;
 		break;
 
 	case "*":
