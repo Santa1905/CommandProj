@@ -1,26 +1,36 @@
 #include <iostream>
+#include "func.h"
+
 using namespace std;
 
 int main()
+
 {
+
+
+	setlocale(LC_ALL, "Rus");
 	double a, b, c;
 	char z;
-	double procent;
 
-	cout « "First number : ";
-	cin » a;
-	cout « "Second number: ";
-	cin » b;
-	cout « "Choose an action (+, -, * or /): ";
-	cin » z;
+
+
+	cout << "Pervoe chislo : ";
+	cin >> a;
+
+	cout << "Vtoroe: ";
+	cin >> b;
+
+	cout << "Deistvie: ";
+	cin >> z;
+
 	switch (z)
 	{
 	case '+':
-		cout << MySum(a,b) <<endl;
+		cout << MySum(a, b) << endl;
 		break;
 
 	case '-':
-		cout « " - in progress";
+		cout << MySub(a, b) << endl;
 		break;
 
 	case '*':
@@ -28,13 +38,19 @@ int main()
 		break;
 
 	case '/':
-		cout « " / in progress";
+		if (b == 0) {
+			cout << "Nelza" << endl;
+		}
+		else
+			cout << MyDiv(a, b) << endl;
+
 		break;
 
 
-	default: cout « "Wrong action";;
-	}
+	default: cout << " net deistviya";;
 
+
+	}
 	return 0;
 
 }
