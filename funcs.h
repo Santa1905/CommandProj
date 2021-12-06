@@ -4,5 +4,6 @@
 
 double MySub(double, double);
 double MySum(double, double);
+double MyMul(double, double);
 #endif // __FUNCS_H__#include "funcs.h"
 

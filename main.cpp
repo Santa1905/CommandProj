@@ -23,8 +23,8 @@ int main()
 		cout « " - in progress";
 		break;
 
-	case "*":
-		cout « " * in progress";
+	case '*':
+		cout << MyMul(a, b) << endl;
 		break;
 
 	case '/':
