@@ -16,7 +16,7 @@ int main()
 	switch (z)
 	{
 	case '+':
-		cout « " + in progress";
+		cout << MySum(a,b) <<endl;
 		break;
 
 	case '-':

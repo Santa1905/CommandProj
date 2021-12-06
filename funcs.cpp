@@ -1,6 +1,7 @@
 #icnlude "funcs.h"
 
-
-// functions will be here
-
+double MySub(double a, double b)
+{
+	return a - b;
+}
 
