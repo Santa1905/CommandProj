@@ -1,29 +1,24 @@
 #include <iostream>
-#include "func.h"
+#include "funcs.h"
 
 using namespace std;
 
 int main()
 
 {
-
-
-	setlocale(LC_ALL, "Rus");
 	double a, b, c;
-	char z;
+	char znak;
 
-
-
-	cout << "Pervoe chislo : ";
+	cout << "First number: ";
 	cin >> a;
 
-	cout << "Vtoroe: ";
+	cout << "Second number: ";
 	cin >> b;
 
-	cout << "Deistvie: ";
-	cin >> z;
+	cout << "Choose action ( +, -, * or / ): ";
+	cin >> znak;
 
-	switch (z)
+	switch (znak)
 	{
 	case '+':
 		cout << MySum(a, b) << endl;
@@ -39,7 +34,7 @@ int main()
 
 	case '/':
 		if (b == 0) {
-			cout << "Nelza" << endl;
+			cout << "You cannot divided by 0" << endl;
 		}
 		else
 			cout << MyDiv(a, b) << endl;
@@ -47,7 +42,7 @@ int main()
 		break;
 
 
-	default: cout << " net deistviya";;
+	default: cout << "Wrong action";
 
 
 	}
